@@ -1,4 +1,4 @@
-# Changelog for package dnn_benchmark_example
+# Changelog for package hobot_model
 
 tros_1.1.5 (2022-2-10)
 ------------------
