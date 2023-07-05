@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+mkdir -p /app/model
+
+FILE=/app/model/basic
+if [ -L "$FILE" ]; then
+    echo "$FILE will be unlink..."
+    unlink $FILE
+fi
+
+ln -s /opt/hobot/model/j5/basic /app/model/basic
+
