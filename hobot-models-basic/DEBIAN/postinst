@@ -9,5 +9,5 @@ if [ -L "$FILE" ]; then
     unlink $FILE
 fi
 
-ln -s /opt/hobot/model/j5/basic /app/model/basic
+ln -s /opt/hobot/model/x5ultra/basic /app/model/basic
 
